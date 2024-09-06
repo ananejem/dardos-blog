@@ -1,0 +1,253 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 120px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff;
+    z-index: 1000;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    position: relative;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: calc(100% - 250px);
+    width: 1143px;
+    display: inline-block;
+}
+
+.navbar .navbar-nav {
+    padding-right: 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: background 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Main Heading */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 1042px;
+}
+
+/* Post Styling */
+.post {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+.post:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+.post p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.post a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Comment Section */
+.comment {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.comment strong {
+    color: #333;
+}
+
+.comment-actions {
+    margin-top: 10px;
+}
+
+.comment-actions a,
+.comment-actions button {
+    color: #007bff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.comment-actions a:hover,
+.comment-actions button:hover {
+    color: #0056b3;
+}
+
+/* Form Styling */
+form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.active {
+    background-color: #1a86f9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active:hover {
+    background-color: #0056b3;
+}
+
+/* Alerts (Success and Error Messages) */
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Pagination Links */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.pagination a,
+.pagination span {
+    color: #007bff;
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+}
+.error {
+    font-size: 0.875rem;
+    color: #e74c3c;
+    margin-top: 5px;
+}
+.main_content
+{
+
+    width: 1390px;
+    margin: 0px auto;
+}
